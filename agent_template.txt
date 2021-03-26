@@ -3,13 +3,13 @@
   "kinesis.endpoint": "",
   "firehose.endpoint": "",
 
-  "awsAccessKeyId": "AKIATPF6UVKKKXAGZMBC",
-  "awsSecretAccessKey": "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",
+  "awsAccessKeyId": "AKIAQW4EVGUVDTSID6XN",
+  "awsSecretAccessKey": "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",
 
   "flows": [
     {
       "filePattern": "/var/log/weather/*.log",
-      "kinesisStream": "kinesis-demo",
+      "kinesisStream": "mytaskstream",
       "partitionKeyOption": "RANDOM",
       "dataProcessingOptions": [
          {
